@@ -1,0 +1,17 @@
+* {
+  font-family: system-ui, "Segoe UI", "Helvetica Neue";
+  user-select: none;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+#chart-panel {
+  width: 100%;
+  height: 100%;
+
+  cursor: crosshair;
+}
