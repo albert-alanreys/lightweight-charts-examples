@@ -1,0 +1,26 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: system-ui, sans-serif;
+}
+
+#chart-container {
+  width: 100%;
+  height: 100%;
+  cursor: crosshair;
+}
