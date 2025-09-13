@@ -13,9 +13,9 @@ const chartOptions = {
     borderVisible: false,
   },
   timeScale: {
-    rightOffset: 4,
+    rightOffset: 2,
     barSpacing: 10,
-    minBarSpacing: 16,
+    minBarSpacing: 14,
     borderVisible: false,
   },
   crosshair: {

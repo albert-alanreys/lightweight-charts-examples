@@ -13,9 +13,9 @@ const chartOptions = {
     borderVisible: false,
   },
   timeScale: {
-    rightOffset: 4,
+    rightOffset: 2,
     barSpacing: 10,
-    minBarSpacing: 16,
+    minBarSpacing: 14,
     borderVisible: false,
   },
   crosshair: {
@@ -76,7 +76,7 @@ createIndicatorSeries(chartApi);
 
 requestAnimationFrame(() => {
   const pane2 = chartApi.panes()[1];
-  console.log(pane2.getHeight());
+  // console.log(pane2.getHeight());
   // pane2.setHeight(100);
 });
 
@@ -116,9 +116,9 @@ requestAnimationFrame(() => {
 //   console.log(pane2.getStretchFactor());
 //   console.log(pane3.getStretchFactor());
 
-//   pane1.setStretchFactor(70);
-//   pane2.setStretchFactor(15);
-//   pane3.setStretchFactor(15);
+//   // pane1.setStretchFactor(70);
+//   // pane2.setStretchFactor(15);
+//   // pane3.setStretchFactor(15);
 // });
 
 // requestAnimationFrame(() => {
